@@ -19,21 +19,51 @@ The primary objectives of this project were:
 
 ## 🛠️ Methodology
 
-### Load Flow Analysis
+1. Power Flow Analysis
 
-Load flow analysis was conducted using the Newton-Raphson method to determine the voltage magnitude and angle at each bus, as well as the active and reactive power flows in the system. The analysis provided insights into the operating conditions of the power system under steady-state conditions.
+We performed load flow studies using the Newton-Raphson method to determine voltage magnitudes, angles, active power (P), and reactive power (Q) at all buses. The study focused on:
 
-### Power Loss Analysis
+Identifying the slack, PV, and PQ buses
 
-The study involved calculating both active (P) and reactive (Q) power losses in transmission lines and transformers. These losses were analyzed to identify components contributing significantly to inefficiencies in the system.
+Calculating bus voltages and line flows
 
-### Voltage Profile Assessment
+Detecting areas of under-voltage or overload
 
-Voltage levels at each bus were examined to ensure they remained within acceptable limits. Buses exhibiting voltage deviations were identified, and potential solutions such as reactive power compensation were explored.
+2. Loss Evaluation
 
-### Reactive Power Compensation
+Using the simulation results, we evaluated:
 
-The impact of reactive power compensation devices, such as shunt capacitors and reactors, was analyzed to assess their effectiveness in improving voltage profiles and reducing losses.
+Active power losses (P Loss) and reactive power losses (Q Loss) across transmission lines
+
+Transformer losses at different voltage levels
+
+Zone-wise and area-wise contribution to system losses
+
+This helped in understanding inefficiencies and areas for potential optimization.
+
+3. Voltage-Level Performance Analysis
+
+The power system was evaluated at various voltage levels (7.8 kV, 13.8 kV, 18 kV, and 69 kV) to determine:
+
+Line-specific and transformer-specific losses
+
+Comparative voltage drop and system behavior under different loads
+
+4. Generation and Load Matching
+
+The simulation ensures total generation matches the total system demand plus losses. We analyzed:
+
+Total active and reactive generation vs load demand
+
+Generator reactive support and system compensation requirements
+
+5. Reactive Power Compensation
+
+We reviewed the need for reactive power compensation using shunt capacitors/inductors to maintain power factor and voltage levels within permissible limits.
+
+6. Economic Considerations (Cost Analysis)
+
+A basic economic assessment was conducted by comparing generator outputs with assumed cost units to understand economic dispatch.
 
 ---
 
@@ -52,7 +82,6 @@ Detailed results, including tables and graphs, are provided in the accompanying 
 ## 📁 Project Files
 
 - `IEEE14BusSystem.pdf`: Detailed system data, simulation results, and power flow reports.
-- 
 ---
 
 ## 🧰 Tools and Software Used
