@@ -100,8 +100,6 @@ Detailed results, including tables and graphs, are provided in the accompanying 
 
 - **Neplan AG V555**: For modeling and simulation of the power system.
 - **Microsoft Word**: For documentation and reporting.
-- **Python (`python-docx` library)**: For automating the generation of Word documents.
-- **Tesseract OCR**: For extracting data from image-based sources.
 
 ---
 
@@ -115,7 +113,7 @@ Detailed results, including tables and graphs, are provided in the accompanying 
 
 ## 📞 Contact
 
-**Your Name**  
+**Vraj Prajapti**  
 B.E. Electrical Engineering, Class of 2026  
 Email: vrajprajapati23042001@gmail.com
 
