@@ -1,0 +1,42 @@
+<Project name="ieee_14_bus">
+  <hierarchy />
+  <messagelist>
+    <message status="normal" label="build" scope="ieee_14_bus"><![CDATA[Generating network and source code 'C:\Users\Vraj Prajapati\Desktop\PSCAD_Learning\14bus_analysis\ieee_14_bus.gf42\Main.f'.]]></message>
+    <message status="normal" label="build" scope="ieee_14_bus"><![CDATA[Generating 'C:\Users\Vraj Prajapati\Desktop\PSCAD_Learning\14bus_analysis\ieee_14_bus.gf42\ieee_14_bus.map'.]]></message>
+    <message status="normal" label="build" scope="ieee_14_bus"><![CDATA[Time for Compile: 93ms  Make: 15ms]]></message>
+    <message status="normal" label="build" scope="ieee_14_bus"><![CDATA[Solve Time = 31ms]]></message>
+    <message status="normal" label="build" scope="ieee_14_bus"><![CDATA[Will execute: call C:\Program Files (x86)\GFortran\4.2.1\bin\gf42vars.bat]]></message>
+    <message status="normal" label="build" scope="ieee_14_bus"><![CDATA[Will execute: make -f ieee_14_bus.mak]]></message>
+    <message status="normal" label="build" scope="ieee_14_bus"><![CDATA[Will execute: C:\Users\VRAJPR~1\Desktop\PSCAD_~1\14BUS_~1\IEEE_1~1.GF4\\IEEE_1~1.BAT]]></message>
+    <message status="normal" label="build" scope="ieee_14_bus"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="ieee_14_bus"><![CDATA[C:\Users\Vraj Prajapati\Desktop\PSCAD_Learning\14bus_analysis\ieee_14_bus.gf42>call C:\PROGRA~2\GFortran\428484~1.1\bin\gf42vars.bat ]]></message>
+    <message status="normal" label="build" scope="ieee_14_bus"><![CDATA[Linking object code and libraries into binary 'ieee_14_bus.exe']]></message>
+  </messagelist>
+  <emt>
+    <netlist name="Station" call_count="1" ss_count="0">
+      <signals>
+        <signal name="GND" dim="1" ss_id="0" node_map_count="1" local_storage_index="0">
+          <sg_points />
+          <node_number global="0" sg_local="0" sg_callindex="0" />
+          <node_number global="0" sg_local="0" sg_callindex="0" />
+        </signal>
+      </signals>
+      <components>
+        <component id="84624640" />
+      </components>
+    </netlist>
+  </emt>
+  <views>
+    <view name="Main" zoomlevel="3" scrollx="433" scrolly="0" />
+    <view name="T7_9" zoomlevel="6" scrollx="0" scrolly="144" />
+    <view name="TLine_11" zoomlevel="6" scrollx="0" scrolly="0" />
+    <view name="TLine_12" zoomlevel="6" scrollx="0" scrolly="0" />
+    <view name="T6_12" zoomlevel="6" scrollx="0" scrolly="396" />
+    <view name="TLine_9" zoomlevel="6" scrollx="0" scrolly="0" />
+    <view name="T1_5" zoomlevel="6" scrollx="0" scrolly="504" />
+    <view name="psse" zoomlevel="6" scrollx="0" scrolly="0" />
+  </views>
+  <catalog>
+    <group name="(No Label)" />
+  </catalog>
+</Project>
